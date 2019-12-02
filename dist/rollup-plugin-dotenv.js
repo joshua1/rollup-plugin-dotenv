@@ -9,7 +9,7 @@ function _interopDefault(ex) {
 var fs = _interopDefault(require('fs'))
 var path = _interopDefault(require('path'))
 var dotenv = _interopDefault(require('dotenv'))
-var replace = _interopDefault(require('rollup-plugin-replace'))
+var replace = _interopDefault(require('@rollup/plugin-replace'))
 
 function _extends() {
   _extends =

@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import dotenv from 'dotenv'
-import replace from 'rollup-plugin-replace'
+import replace from '@rollup/plugin-replace'
 import { mapKeys, mapValues, pick, pipe, shallowMergeAll } from './utils'
 
 const withDefaults = ({ cwd = '.', envKey = 'NODE_ENV' } = {}) => ({
